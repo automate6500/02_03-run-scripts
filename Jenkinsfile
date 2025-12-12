@@ -29,12 +29,6 @@ pipeline {
                 sh("${env.WORKSPACE}/scripts/fibonacci.sh ${env.NUMBER}")
             }
         }
-        stage('Path outside the repo') {
-            steps {
-                sh("${env.WORKSPACE}/scripts/fibonacci.sh ${env.NUMBER} > calculation.txt")
-                sh("/usr/bin/tar -czvf ./calculation.tgz ./calculation.txt")
-            }
-        }
         stage('Change directory') {
             steps {
                 dir("${env.WORKSPACE}/scripts"){
