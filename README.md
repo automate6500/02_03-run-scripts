@@ -1,5 +1,3 @@
-[![Build Status](http://ec2-52-11-252-39.us-west-2.compute.amazonaws.com/buildStatus/icon?job=02_03-run-scripts)](http://ec2-52-11-252-39.us-west-2.compute.amazonaws.com/job/02_03-run-scripts/)
-
 [![Build Status](http://ec2-52-11-252-39.us-west-2.compute.amazonaws.com/job/02_03-run-scripts/badge/icon)](http://ec2-52-11-252-39.us-west-2.compute.amazonaws.com/job/02_03-run-scripts/)
 
 # 02_03 Run Scripts From the Pipeline
